@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'EENERVA-5520_ubuntu'
 
 steps:
 - task: Maven@3
