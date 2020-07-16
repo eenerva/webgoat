@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: 
-    echo "Skipping cov-commit-defects..."
+    echo "and the Bunnymen..."
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
