@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'EENERVA-5520_ubuntu'
+  name: 'default'
 
 steps:
 - task: Maven@3
