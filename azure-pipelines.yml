@@ -12,4 +12,4 @@ jobs:
   - task: CmdLine@2
     displayName: analyze
     inputs:
-      script: '$(POLARIS_CLI) analyze'
+      script: '$(POLARIS_CLI) -c /home/eenerva/demo/transunion/azure_workspace/polaris.yml analyze'
