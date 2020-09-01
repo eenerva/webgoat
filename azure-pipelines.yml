@@ -5,7 +5,7 @@ variables:
 jobs:
 - job: Polaris
   pool:
-    name: private-windows
+    name: default
   workspace:
     clean: all
   steps:
